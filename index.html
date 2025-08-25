@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chikankari Collection - Zeen Woman</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Libre+Baskerville:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container">
+            <p>Free shipping on orders over PKR 5000</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <button class="menu-toggle" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <div class="logo">
+                    <a href="/">
+                        <img src="https://cdn.shopify.com/s/files/1/0320/4405/6716/files/Zeen_1_22.svg?v=1683627677" alt="Zeen Woman">
+                    </a>
+                </div>
+                
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">Sale</a></li>
+                        <li><a href="#">Ready to Wear</a></li>
+                        <li><a href="#">Unstitched</a></li>
+                        <li><a href="#">Western</a></li>
+                        <li><a href="#">Junior</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Fragrances</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-icons">
+                    <a href="/search" class="search-icon" aria-label="Search">
+                        <i class="fa fa-search"></i>
+                    </a>
+                    <a href="/account" class="account-icon" aria-label="Account">
+                        <i class="fa fa-user"></i>
+                    </a>
+                    <a href="/cart" class="cart-icon" aria-label="Cart">
+                        <i class="fa fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Collection Banner -->
+        <section class="collection-banner">
+            <div class="container">
+                <div class="banner-content">
+                    <h1>AFZ clothes</h1>
+                    <p>Exquisite hand-embroidered traditional wear</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collection Description -->
+        <section class="collection-description">
+            <div class="container">
+                <p>Zeen is renowned for being the best online women's clothing brand in Pakistan, brought to you by Cambridge, a pioneer fashion brand since 1971.</p>
+            </div>
+        </section> 
+
+        <!-- Product Filters -->
+        <section class="product-filters">
+            <div class="container">
+                <div class="filter-options">
+                    <div class="filter-group">
+                        <label for="sort-by">Sort by</label>
+                        <select id="sort-by">
+                            <option value="best-selling">Best Selling</option>
+                            <option value="price-ascending">Price: Low to High</option>
+                            <option value="price-descending">Price: High to Low</option>
+                            <option value="newest">Newest</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="filter-by">Filter by</label>
+                        <select id="filter-by">
+                            <option value="all">All Products</option>
+                            <option value="ready-to-wear">Ready to Wear</option>
+                            <option value="unstitched">Unstitched</option>
+                            <option value="shirts">Shirts</option>
+                            <option value="suits">Suits</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Grid -->
+        <section class="product-grid">
+            <div class="container">
+                <div class="grid-header">
+                    <h2>Our Chikankari Collection</h2>
+                    <p class="product-count">38 products</p>
+                </div>
+                
+                <div class="products">
+                    <!-- Product items will be dynamically loaded here -->
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x400" alt="Chikankari Product">
+                            <div class="product-badges">
+                                <span class="badge new">New</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="quick-view">Quick View</button>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">EMBROIDERED SUIT</h3>
+                            <p class="product-type">Mid Summer 2025</p>
+                            <div class="product-price">
+                                <span class="price">PKR 9,490</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- More product items would go here -->
+                </div>
+                
+                <div class="load-more">
+                    <button class="load-more-btn">Load More</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for new collections, exclusive offers, and style tips.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#">Ready to Wear</a></li>
+                        <li><a href="#">Unstitched</a></li>
+                        <li><a href="#">Western</a></li>
+                        <li><a href="#">Junior</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Store Locations</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                    <div class="payment-methods">
+                        <img src="https://via.placeholder.com/40x25" alt="Visa">
+                        <img src="https://via.placeholder.com/40x25" alt="Mastercard">
+                        <img src="https://via.placeholder.com/40x25" alt="PayPal">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zeen Woman. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
